@@ -1,8 +1,8 @@
 <?php 
 
-// when installed via composer
 require_once 'vendor/autoload.php';
 
 $faker = Faker\Factory::create('pt_BR');
 
-echo $faker->name();
+echo "<p>{$faker->name()}</p>";
+echo "<p>{$faker->word()}</p>";
